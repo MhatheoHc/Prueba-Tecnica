@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Pruebas Automatización]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Pruebas Registro(failed)" verbose="0">
+    <classes>
+      <class name="com.pruebacenet.tests.RegistroUsuarioTest">
+        <methods>
+          <include name="configuracionInicial"/>
+          <include name="setup"/>
+          <include name="testEmailInvalido"/>
+          <include name="testPasswordsNoCoinciden"/>
+          <include name="testLimitesCaracteres"/>
+          <include name="testRegistroExitoso"/>
+          <include name="tearDown"/>
+          <include name="testCamposObligatorios"/>
+          <include name="testCaracteresEspecialesNombre"/>
+          <include name="testPasswordDebil"/>
+        </methods>
+      </class> <!-- com.pruebacenet.tests.RegistroUsuarioTest -->
+    </classes>
+  </test> <!-- Pruebas Registro(failed) -->
+</suite> <!-- Failed suite [Suite Pruebas Automatización] -->

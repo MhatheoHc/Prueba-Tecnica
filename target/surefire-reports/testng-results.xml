@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-19T14:29:07 COT" name="Suite Pruebas Automatización" finished-at="2025-11-19T14:29:26 COT" duration-ms="18227">
+    <groups>
+    </groups>
+    <test started-at="2025-11-19T14:29:07 COT" name="Pruebas Registro" finished-at="2025-11-19T14:29:26 COT" duration-ms="18227">
+      <class name="com.pruebacenet.tests.RegistroUsuarioTest">
+        <test-method is-config="true" signature="configuracionInicial()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:07 COT" name="configuracionInicial" finished-at="2025-11-19T14:29:09 COT" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuracionInicial -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:09 COT" name="setup" finished-at="2025-11-19T14:29:10 COT" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistroExitoso()[pri:1, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:10 COT" name="testRegistroExitoso" description="Registro exitoso con datos válidos" finished-at="2025-11-19T14:29:11 COT" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistroExitoso -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:11 COT" name="tearDown" finished-at="2025-11-19T14:29:12 COT" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistroExitoso status=SUCCESS method=RegistroUsuarioTest.testRegistroExitoso()[pri:1, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:12 COT" name="setup" finished-at="2025-11-19T14:29:13 COT" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCamposObligatorios()[pri:2, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:13 COT" name="testCamposObligatorios" description="Validar campos obligatorios vacíos" finished-at="2025-11-19T14:29:13 COT" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCamposObligatorios -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:13 COT" name="tearDown" finished-at="2025-11-19T14:29:14 COT" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCamposObligatorios status=SUCCESS method=RegistroUsuarioTest.testCamposObligatorios()[pri:2, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:14 COT" name="setup" finished-at="2025-11-19T14:29:15 COT" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEmailInvalido()[pri:3, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:15 COT" name="testEmailInvalido" description="Validar formato de email inválido" finished-at="2025-11-19T14:29:16 COT" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailInvalido -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:16 COT" name="tearDown" finished-at="2025-11-19T14:29:16 COT" duration-ms="539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmailInvalido status=SUCCESS method=RegistroUsuarioTest.testEmailInvalido()[pri:3, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:16 COT" name="setup" finished-at="2025-11-19T14:29:17 COT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordDebil()[pri:4, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:17 COT" name="testPasswordDebil" description="Validar complejidad de contraseña" finished-at="2025-11-19T14:29:18 COT" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordDebil -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:18 COT" name="tearDown" finished-at="2025-11-19T14:29:19 COT" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordDebil status=SUCCESS method=RegistroUsuarioTest.testPasswordDebil()[pri:4, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:19 COT" name="setup" finished-at="2025-11-19T14:29:20 COT" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordsNoCoinciden()[pri:5, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:20 COT" name="testPasswordsNoCoinciden" description="Validar que contraseñas coincidan" finished-at="2025-11-19T14:29:21 COT" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordsNoCoinciden -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:21 COT" name="tearDown" finished-at="2025-11-19T14:29:21 COT" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordsNoCoinciden status=SUCCESS method=RegistroUsuarioTest.testPasswordsNoCoinciden()[pri:5, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:21 COT" name="setup" finished-at="2025-11-19T14:29:22 COT" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLimitesCaracteres()[pri:6, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:22 COT" name="testLimitesCaracteres" description="Validar límites de caracteres" finished-at="2025-11-19T14:29:23 COT" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLimitesCaracteres -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:23 COT" name="tearDown" finished-at="2025-11-19T14:29:23 COT" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLimitesCaracteres status=SUCCESS method=RegistroUsuarioTest.testLimitesCaracteres()[pri:6, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:23 COT" name="setup" finished-at="2025-11-19T14:29:24 COT" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCaracteresEspecialesNombre()[pri:7, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:24 COT" name="testCaracteresEspecialesNombre" description="Validar caracteres especiales en nombre" finished-at="2025-11-19T14:29:25 COT" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaracteresEspecialesNombre -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46]" started-at="2025-11-19T14:29:25 COT" name="tearDown" finished-at="2025-11-19T14:29:26 COT" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaracteresEspecialesNombre status=SUCCESS method=RegistroUsuarioTest.testCaracteresEspecialesNombre()[pri:7, instance:com.pruebacenet.tests.RegistroUsuarioTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pruebacenet.tests.RegistroUsuarioTest -->
+    </test> <!-- Pruebas Registro -->
+  </suite> <!-- Suite Pruebas Automatización -->
+</testng-results>
